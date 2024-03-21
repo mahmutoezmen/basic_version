@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="main-content">
+    <div id="container">
+        <p class="text-center">Individual Visits</p>
+        <div id="individual">
+            <div id="individual-container">
+                <div>
+                    <P>visit 1 (14y)</P>
+                    <div class="flex">
+                        <div id="individualChart1">
+                            <img src="Stacked_Radial_Plot.png" width="200px" height="180px" alt="">
+                        </div>
+                        <div>
+                            <input type="checkbox" name="chart1" id="checkBox1">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <P>visit 2 (14y)</P>
+                    <div class="flex">
+                        <div id="individualChart2">
+                            <img src="Stacked_Radial_Plot.png" width="200px" height="180px" alt="">
+                        </div>
+                        <div>
+                            <input type="checkbox" name="chart1" id="checkBox2">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <P>visit 3 (14y)</P>
+                    <div class="flex">
+                        <div id="individualChart3">
+                            <img src="Stacked_Radial_Plot.png" width="200px" height="180px" alt="">
+                        </div>
+                        <div>
+                            <input type="checkbox" name="chart1" id="checkBox3">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <P>visit 4 (14y)</P>
+                    <div class="flex">
+                        <div id="individualChart4">
+                            <img src="Stacked_Radial_Plot.png" width="200px" height="180px" alt="">
+                        </div>
+                        <div>
+                            <input type="checkbox" name="chart1" id="checkBox4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="selections">
+            <div>
+                <select name="userSelection" id="">
+                    <option value="all" selected>select sth...</option>
+                    <option value="20">20</option>
+                    <option value="40">40</option>
+                    <option value="60">60</option>
+                    <option value="80">80</option>
+                </select>
+            </div>
+        </div>
+        <p id="transitions-text" class="text-center">Transitions:</p>
+        <div id="lineChart"></div>
+        <div id="table">
+
+            <table class="record-table">
+                <tr>
+                    <th class="no-border"></th>
+                    <th>Age</th>
+                    <th>Height</th>
+                    <th class="light">Day Mean SBP</th>
+                    <th class="highlight">Night Mean SBP</th>
+                    <th class="light">Day Mean DBP</th>
+                    <th class="highlight">Night Mean DBP</th>
+                    <th>Mode of Therapy</th>
+                </tr>
+                <tr>
+                    <td>visit5</td>
+                    <td>14</td>
+                    <td>137.0</td>
+                    <td class="light">119.62</td>
+                    <td class="highlight">101.84</td>
+                    <td class="light">72.35</td>
+                    <td class="highlight">52.03</td>
+                    <td>Preemptive TPL</td>
+                </tr>
+                <tr>
+                    <td>visit4</td>
+                    <td>13</td>
+                    <td>135.0</td>
+                    <td class="light">125.7</td>
+                    <td class="highlight">112.4</td>
+                    <td class="light">77.44</td>
+                    <td class="highlight">65.82</td>
+                    <td>Preemptive TPL</td>
+                </tr>
+                <tr>
+                    <td>Difference</td>
+                    <td>1</td>
+                    <td>2.0</td>
+                    <td class="light">-6.08</td>
+                    <td class="highlight">-10.56</td>
+                    <td class="light">-5.09</td>
+                    <td class="highlight">-13.79</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+        <div id="transitions">
+            <div id="transitions-container">
+                <div>
+                    <P>visit 1 (14y)</P>
+                    <div class="flex">
+                        <div id="transitionsChart1">
+                            <img src="Stacked_Radial_Plot.png" width="200px" height="180px" alt="">
+                        </div>
+                        <div>
+                            <input type="radio" name="option" value="option1">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <P>visit 2 (14y)</P>
+                    <div class="flex">
+                        <div id="transitionsChart2">
+                            <img src="Stacked_Radial_Plot.png" width="200px" height="180px" alt="">
+                        </div>
+                        <div>
+                            <input type="radio" name="option" value="option2">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <P>visit 3 (14y)</P>
+                    <div class="flex">
+                        <div id="transitionsChart3">
+                            <img src="Stacked_Radial_Plot.png" width="200px" height="180px" alt="">
+                        </div>
+                        <div>
+                            <input type="radio" name="option" value="option3">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <P>visit 4 (14y)</P>
+                    <div class="flex">
+                        <div id="transitionsChart4">
+                            <img src="Stacked_Radial_Plot.png" width="200px" height="180px" alt="">
+                        </div>
+                        <div>
+                            <input type="radio" name="option" value="option4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
